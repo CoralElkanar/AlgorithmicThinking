@@ -31,7 +31,7 @@ def make_change(target_amount):
         while target_amount_int >= coin:
             target_amount_int -= coin
             change.append(coin)
-    return len(change)
+    return len(change), change
 
 
 change = '$1.63'
