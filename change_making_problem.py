@@ -1,4 +1,6 @@
 """
+- Greedy Algorithm -
+
 Question:
 Find the minimum number of coins from a set of denominations that add up to a given amount of money.
 
