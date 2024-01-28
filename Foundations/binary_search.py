@@ -13,7 +13,8 @@ def binary_search(arr:list[int], target:int):
             left = mid + 1
         else:  # arr[mid] > target
             right = mid - 1
-    return mid
+    # if we didn't find the target number in the list
+    return -1
 
 n = 10
 max_val = 100
